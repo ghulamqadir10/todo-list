@@ -1,28 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: "Ubuntu Sans", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /*align item isliye kam kr rha hai q ka body ko height di hai */
-/* height: 100vh; */
-/*vh mtlb view port height and vw meand viewport width*/
-/* font-style: normal; */
-
-/* } */
-/* .container{ */
-/* border: 2px solid black; */
-/* width: 40%; */
-/* min-width: 440px; */
-/* }*/
-
 .hide {
     display: none;
 }
@@ -93,7 +68,7 @@ p {
     /* width: 140px; */
     height: fit-content;
     text-wrap: wrap;
-    line-break: anywhere;
+    line-break: normal;
 }
 
 

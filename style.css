@@ -1,0 +1,133 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*align item isliye kam kr rha hai q ka body ko height di hai */
+/* height: 100vh; */
+/*vh mtlb view port height and vw meand viewport width*/
+/* font-style: normal; */
+
+/* } */
+/* .container{ */
+/* border: 2px solid black; */
+/* width: 40%; */
+/* min-width: 440px; */
+/* }*/
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.container {
+    /* border: 2px solid black; */
+    margin: 10px 40px;
+    box-shadow: 7px 7px 20px rgb(240, 102, 125);
+    /* height: 100vh; */
+    align-items: center;
+    padding: 20px 20px;
+    align-items: center;
+    text-align: center;
+    /* background-color: navy; */
+
+
+}
+
+h1 {
+    color: coral;
+    /* black */
+    text-shadow: 1px 1px 2px black;
+    font-size: 37px;
+    text-decoration: overline underline;
+    letter-spacing: 8px;
+
+}
+
+.newtask {
+    /* background-color: red; */
+    width: 30%;
+    border-radius: 10px;
+    padding: 40px 10px;
+    /* border: 10px solid pink; */
+    box-shadow: 4px 4px 20px pink;
+    margin: 0 auto;
+
+
+    /* text-align: center; */
+}
+
+
+.tasks div {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    gap: 10px;
+    margin: 10px;
+    width: 30%;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px pink;
+    padding: 10px 10px;
+}
+
+p {
+    /* display: flex; */
+    /* justify-content: center; */
+    color: red;
+    border: 2px solid black;
+    /* font-size: 20px; */
+    text-decoration: underline;
+    padding: 0px 10px;
+    font-size: 24px;
+    /* width: 140px; */
+    height: fit-content;
+    text-wrap: wrap;
+    line-break: anywhere;
+}
+
+
+#add {
+    /* border: 2px solid black; */
+    font-size: 24px;
+    background-color: rgb(228, 93, 115);
+    font-size: default;
+    border-radius: 4px;
+    box-shadow: 4px 4px 20px pink;
+}
+
+#taskinput {
+    width: fit-content;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
+
+.taskbuttons {
+    margin: auto;
+    background-color: rgb(228, 93, 115);
+    height: fit-content;
+    width: fit-content;
+    padding: 0px 4px;
+    font-size: 24px;
+
+}
+
+.editinput {
+    width: fit-content;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 24px;
+    color: red;
+}
